@@ -55,11 +55,11 @@ while(playAgain) {
     }
     // Didn't put in a correct input so tell user 
     else {
-        alert("bad input");
+        alert("Input entered was not correct");
     }
 
     //This displays stats
-    alert("wins: " + win + "\nlosses: " + lose + "\nties: " + tie);
+    alert("Wins: " + win + "\nLosses: " + lose + "\nTies: " + tie);
 
     //This asks user if they want to play again:
     playAgain = confirm("Play again?");
